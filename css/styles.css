@@ -209,6 +209,11 @@ li {
   color: var(--secondary-text-color);
 }
 
+.pos-foot {
+  display: flex;
+  align-items: baseline;
+}
+
 /*hero-section*/
 .hero-section {
   background-color: var(--third-background-color);
@@ -488,6 +493,7 @@ img {
   margin-bottom: 0;
   margin-top: 0;
   list-style: none;
+  color: #afb1b8;
 }
 
 .soc-link .link {
@@ -587,4 +593,26 @@ img {
 .link-client:hover svg,
 .link-client:focus svg {
   fill: var(--accent-color);
+}
+
+.footer-sections {
+  background-color: #2f303a;
+  padding: 60px 0px;
+  color: var(--fon-color);
+}
+
+.container-footer {
+  margin-right: 70px;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-bottom: 20px;
 }
