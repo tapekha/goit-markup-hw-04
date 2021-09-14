@@ -374,6 +374,10 @@ li {
   padding-top: 60px;
 }
 
+.footer .social-links .link svg {
+  fill: #ffffff;
+}
+
 .adress {
   font-style: normal;
 }
@@ -619,7 +623,7 @@ img {
   color: var(--fon-color);
 }
 
-.container-footer {
+.footer-adress-column {
   margin-right: 70px;
 }
 
