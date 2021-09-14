@@ -254,6 +254,16 @@ li {
   margin-right: 30px;
 }
 
+.sait-hover {
+  display: block;
+}
+
+.sait-hover:hover,
+.sait-hover:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -264,8 +274,7 @@ li {
   background-color: var(--secondary-background-color);
   font-family: 'Roboto', sans-serif;
   white-space: nowrap;
-  min-width: 200px;
-  padding: 6px 20px;
+  padding: 10px 32px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -280,7 +289,7 @@ li {
 .button:hover {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  opacity: 0.8;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-list {
@@ -325,7 +334,7 @@ li {
 }
 
 .members-item {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -515,6 +524,10 @@ img {
   margin-left: 10px;
 }
 
+.social-links .link svg {
+  fill: #afb1b8;
+}
+
 .social-links .link:hover,
 .social-links .link:focus {
   background-color: #afb1b8;
@@ -543,6 +556,11 @@ img {
 .social-links li + li {
   margin-left: 10px;
 }
+
+.soc-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .section-clients {
   margin: 94px 0;
 }
