@@ -274,7 +274,7 @@ li {
   background-color: var(--secondary-background-color);
   font-family: 'Roboto', sans-serif;
   white-space: nowrap;
-  padding: 10px 32px;
+  padding: 6px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
